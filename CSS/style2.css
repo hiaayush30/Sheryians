@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #111;
+    flex-wrap: nowrap;
+    gap:5px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border: 2px solid white;
+    flex-shrink: 0;
+}

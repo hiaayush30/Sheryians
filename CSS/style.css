@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    /* background: linear-gradient(to right bottom,red,maroon,blue);  */
+    /* from top left */
+    background-image: url('https://images.unsplash.com/photo-1739641375724-dfea74e0df69?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}  
+.yo{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    /* 50% of its own width ie 100px */
+}
+
+.yo2{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    /* 50% of its own width ie 100px */
+}
